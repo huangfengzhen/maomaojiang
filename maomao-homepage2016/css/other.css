@@ -1,0 +1,37 @@
+/* CSS Document */
+/*----------------------------------Author:lvzhaohua-----------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,span,button,blockquote,th,td,img,xmp{padding:0;margin:0 auto;border:0;}
+body,body a,input,textarea,button{font-family:"Microsoft Yahei",Helvetica,Helvetica Neue,WenQuanYi Micro Hei,sans-serif;}
+body a{outline:none;blr:expression(this.onFocus=this.blur());}
+body{background-color:#fff;}
+input,textarea{outline:none;}
+ol,ul,li,img{list-style-type: none;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;}
+.clear{clear:both;font-size:0;height:0;overflow:hidden;display:block;}
+.clear:after{height:0;visibility:hidden;display:block;clear:both;content:" ";}
+/* fix IE hack \*/
+*html .clear{height:1%;}
+a:focus{outline:none}
+a:hover,a:active{outline:none}:focus{outline:none}
+a,input,button{outline:none;blr:expression(this.onFocus=this.blur());}
+::-moz-focus-inner{border:0px;}
+a,a:hover,a:active{text-decoration:none;}
+/*HTML5 reset*/
+header,footer,section,aside,details,menu,article,section,nav,address,hgroup,figure,figcaption,legend{display:block;margin:0;padding:0}
+
+/*--------------------------------全局样式结束------------------------------*/
+.left{float:left;}
+.right{float:right;}
+.bfb{width:100%;}
+.dsib{display:inline-block;}
+.tc{text-align:center;}
+.pst{position:relative;}
+
+.header{width:100%;text-align:center;background-color:#0058a2;display:inline-block;}
+.header img{max-width:100%;height:auto;float:left;}
+
+.content{width:94%;height:auto;margin:5px auto 10px;}
+
+
+
+
